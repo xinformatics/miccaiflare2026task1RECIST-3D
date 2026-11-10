@@ -1,0 +1,27 @@
+[
+  {
+    "path": "docker_moe/models/effmedsam2_small.pt",
+    "bytes": 136422106,
+    "sha256": "c1a54157f93df34f3eb702d19e0a03b2159be8c1a12beb1972088123aa70e073"
+  },
+  {
+    "path": "docker_moe/models/effmedsam2_tiny.pt",
+    "bytes": 71662031,
+    "sha256": "78cd67f41c1c2953026bd6e70a7648998079d08cb6ab0f75bbe289039695c103"
+  },
+  {
+    "path": "docker_moe/models/organ_moe_epoch65.pt",
+    "bytes": 66354353,
+    "sha256": "4d8f65745a18ac39849ce891b1c257c94f6d2ce014b5529fef35b35e3a1a0d52"
+  },
+  {
+    "path": "othermachine/release/models/ours_3d_A2.pt",
+    "bytes": 198631517,
+    "sha256": "9e6f195016866619f8aa077d3124c3d89862c9fcf881bc654ae746fab5a7d65e"
+  },
+  {
+    "path": "artifacts/roi3d-a2-long300/epoch_195.pt",
+    "bytes": 198647115,
+    "sha256": "b9630a53243dc699ae6d098062bc377ac1b33a83402620ad467f245b17cdb047"
+  }
+]

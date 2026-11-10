@@ -1,0 +1,15 @@
+models/
+checkpoints/
+artifacts/
+dataset/
+inputs/
+outputs/
+.venv/
+__pycache__/
+*.pyc
+*.pt
+*.pth
+*.npz
+*.zip
+*.tar*
+.env*

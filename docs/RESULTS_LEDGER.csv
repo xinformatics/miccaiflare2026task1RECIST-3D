@@ -1,0 +1,21 @@
+scope,system,lesion_dsc,lesion_nsd,status_or_note
+hidden_codabench,organizer_baseline,0.7722,0.6291,official reference
+hidden_codabench,two_family_ensemble,0.7869,0.6443,3D plus SAM2
+hidden_codabench,four_way_ensemble,0.7931,0.6517,additional prompt variants
+hidden_codabench,submission_4way_a2_long300_e35,0.7965,0.6603,long-trained 3D
+hidden_codabench,tuned_prompt_long_trained_ensemble,0.8023,0.6669,box scale 0.9 family
+hidden_codabench,intermediate_best,0.8037,0.6704,development milestone
+hidden_codabench,anchor_to_sam2_standalone,0.8065,0.6743,3D anchor propagated by SAM2
+hidden_codabench,six_way_epoch195,0.8114,0.6811,strong pre-MoE result
+hidden_codabench,propagation_gate_negative_result,0.8104,0.6801,rejected
+hidden_codabench,seven_way_width40_epoch175,0.8112,0.6808,no gain
+hidden_codabench,six_way_width40_replace_epoch195,0.8113,0.6810,no gain
+hidden_codabench,final_organ_moe_ensemble,0.8115,0.6813,best accuracy submission
+hidden_codabench,cpu_compliant_deployment_router,0.7927,0.6559,exact Docker graph
+public_validation,organ_moe_epoch65_standalone,0.8385717103,0.6361784645,CPU fallback member
+public_validation,moe_plus_small_box09_full_fusion,0.8450214491,0.6498578613,weight 0.57
+public_validation,cpu_whole_case_route_replay,0.8417051200,0.6404594828,40-slice routing policy
+cpu_runtime_seconds,typical_one_lesion,10.43,,hard 8 GB exact entry point
+cpu_runtime_seconds,short_two_lesion,11.36,,hard 8 GB exact entry point
+cpu_runtime_seconds,three_lesion_180_slice,29.42,,hard 8 GB exact entry point
+cpu_runtime_seconds,extreme_1168_slice,27.82,,MoE safety route hard 8 GB
